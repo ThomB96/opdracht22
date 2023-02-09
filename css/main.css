@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6, p, a{
+    text-align: center;
+    padding: 10px;
+}
+@keyframes fade_in{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+.row, header, p{
+    animation: fade_in 5s forwards;
+    padding: 10px;
+    
+}
+header{
+    min-height: 200px;
+    padding: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+    background-color: yellow;
+    color: white;
+    border-radius: 10px;
+}
+form{
+    align-self: center;
+}
+footer{
+    min-height: 200px;
+}
